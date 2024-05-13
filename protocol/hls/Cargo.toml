@@ -21,6 +21,7 @@ tokio-util = { version = "0.6.5", features = ["codec"] }
 streamhub = { path = "../../library/streamhub/" }
 xmpegts = { path = "../../library/container/mpegts/" }
 xflv = { path = "../../library/container/flv/" }
+rtmp = { path = "../rtmp/" }
 commonlib = { path = "../../library/common/" }
 
 [dependencies.tokio]
